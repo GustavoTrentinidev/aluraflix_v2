@@ -80,7 +80,7 @@ body {
     height: 30px;
   }
 
-  #localFilme, #localFilmeHumor{
+  #localFilme, #localFilmeHumor , #localFilmeHistoria{
     display: flex;
     overflow-x:auto;
     flex-wrap: nowrap;
@@ -116,7 +116,7 @@ body {
   transition: 150ms ease-in-out;
 }
 
-.container button {
+.container .botao-trailer {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -134,7 +134,7 @@ body {
   opacity: 1;
 }
 
-#filmeAcao, #filmeHumor {
+#filmeAcao, #filmeHumor , #filmeHistoria{
   color: white;
   text-align: start;
 }
