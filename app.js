@@ -22,6 +22,8 @@ function addOnList(){
             generos.push(0)
         }else if(genero == "humor"){
             generos.push(1)
+        } else{
+            generos.push(2)
         }
         imagens.push(novaImagem.value)
         trailers.push(novoTrailer.value)
